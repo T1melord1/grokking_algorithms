@@ -22,9 +22,9 @@ public class BinarySearch {
     }
 
     public static void main(String[] args) {
-        int[] myList = {1, 3, 5, 7, 9};
+        int[] myList2 = {1, 3, 5, 7, 9};
 
-        System.out.println(binarySearch(myList, 3)); // 1
-        System.out.println(binarySearch(myList, -1)); // null
+        System.out.println(binarySearch(myList2, 3)); // 1
+        System.out.println(binarySearch(myList2, -1)); // null
     }
 }
